@@ -14,9 +14,17 @@ ul{
     line-height: 30px;
 }
 
+li{
+    font-weight: bold;
+}
+
 h1{
-    font-size: 100px;
-    margin-bottom: 10px;
+    font-size: 105px;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin: -10px;
 }
 
 p{
@@ -35,7 +43,7 @@ input{
 }
 
 input:focus {
-    outline:none;
+    outline: none;
 }
 
 input::placeholder{
@@ -45,9 +53,13 @@ input::placeholder{
     text-align: center;
 }
 
+button:focus {
+    outline: none;
+}
+
 .js-clock{
     font-family: 'Allerta Stencil';
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
