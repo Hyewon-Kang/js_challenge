@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body{
+    background-color: #3F51B5;
+    color: white;
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+h1{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input{
+    color: #ffffff;
+    background-color: transparent;
+    padding-top: 15px;
+    border: 0;
+    width: 300px;
+    border-bottom: 1.5px solid #000000;
+}
+
+input:focus {
+    outline:none;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-family: 'Roboto Slab', 'Gothic A1';
+    font-size: 20px;
+    text-align: center;
+}
+
+.js-clock{
+    font-family: 'Allerta Stencil';
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.js-weather{
+    display: flex;
+    float: right;
+    text-align: left;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Allerta Stencil';
+}
+
+#change{
+    display: flex;
+    float: right;
+    text-align: bottom;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Allerta Stencil';
+}
+
+.js-toDoList{
+    position: relative;
+    right: 15px;
+}
+
+.clicked{
+    color : #8BC34A;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.form,
+.greetings{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+
+
+
+#delBtn{
+    background-color: transparent;
+    border: none;
+}
